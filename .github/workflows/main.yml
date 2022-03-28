@@ -30,6 +30,6 @@ jobs:
         run: |
           docker build -t test1 .
           docker login -u sjkarthik -p a4a99e17-8b93-4e8d-a7d1-4d8031b1c6eb
-          docker tag test11 sjkarthik/test1
+          docker tag test1 sjkarthik/test1
           docker push sjkarthik/test1
           
