@@ -28,8 +28,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Scripts
         run: |
-          docker build -t TEST1 .
+          docker build -t test1 .
           docker login -u sjkarthik -p a4a99e17-8b93-4e8d-a7d1-4d8031b1c6eb
-          docker tag TEST1 sjkarthik/hello
-          docker push sjkarthik/hello
+          docker tag test11 sjkarthik/test1
+          docker push sjkarthik/test1
           
